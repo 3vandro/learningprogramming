@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body{
+    font-family: Lato, sans-serif;
+}
+
+header{
+    width: 300px;
+    margin: 0 550px;
+}
+img{
+    float: left;
+}
+    h1{
+    position: relative 10 10 0 0;
+    }
+nav{
+    width: 300px;
+    margin: 0 550px;
+    padding: 20 0;
+    text-align: center;
+
+}
+a{
+    margin: 20;
+    color: #000;
+    text-decoration: none;
+}
+main{
+    width: 750px;
+    margin: 40 370;
+}
+section{
+    width:500px;
+    margin: 40 100;
+    background-color: #f6f6f9;
+    border-radius: 20px;
+    align-items: center;
+}
+h2{
+    font-size: 19px;
+}
+#inputNovaTarefa{
+    font-family: Lato, sans-serif;
+    padding: 0 10;
+    height: 40px;
+    width: 380px;
+    border-radius: 5px;
+    border: 1px solid #0ccbde;
+}
+#btnNovaTarefa{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 0 25px;
+    color: #fff;
+    background-color: #0ccbde;
+}
+#btnNovaTarefa:hover{
+    transform: scale(1.1);
+}
+#ListadeTarefas ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    list-style: none;
+    padding: 20px 10px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#li:hover{
+background-color: #0ccbde;
+}
+
+
