@@ -9,41 +9,42 @@ header{
     width: 300px;
     margin: 0 550px;
 }
-img{
+header img{
     float: left;
 }
-    h1{
-    position: relative 10 10 0 0;
+header h1{
+    position: relative 10px 10px 0 0;
     }
 nav{
     width: 300px;
     margin: 0 550px;
-    padding: 20 0;
+    padding: 20px 0px;
     text-align: center;
 
 }
-a{
-    margin: 20;
+nav a{
+    margin: 20px;
     color: #000;
     text-decoration: none;
 }
 main{
     width: 750px;
-    margin: 40 370;
+    margin: 40px 370px;
 }
 section{
     width:500px;
-    margin: 40 100;
+    margin: 40px 100px;
     background-color: #f6f6f9;
     border-radius: 20px;
     align-items: center;
+    padding: 10px 20px;
 }
-h2{
+section h2{
     font-size: 19px;
 }
 #inputNovaTarefa{
     font-family: Lato, sans-serif;
-    padding: 0 10;
+    padding: 0px 10px;
     height: 40px;
     width: 380px;
     border-radius: 5px;
@@ -61,19 +62,20 @@ h2{
     transform: scale(1.1);
 }
 #ListadeTarefas ul{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
-li{
+section li{
     list-style: none;
     padding: 20px 10px;
     margin: 20px;
     background-color: #fff;
     border-radius: 10px;
 }
-#li:hover{
+#ListadeTarefas li:hover{
 background-color: #0ccbde;
+color: #ffffff;
 }
 
 
